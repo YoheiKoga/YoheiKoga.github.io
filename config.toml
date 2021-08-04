@@ -11,7 +11,7 @@ paginate = "10"
 
 
 [Params]
-  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  #subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "Yohei Koga website" # Site description. Used in meta description
   copyright = "Yohei Koga" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
@@ -21,8 +21,8 @@ paginate = "10"
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["post", "blog", "news", "docs"] # Specify section pages to show on home page and the "Recent articles" widget
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -36,7 +36,8 @@ paginate = "10"
 
 
 [Params.style.vars]
-  highlightColor = "#e22d30" # Override highlight color
+  #highlightColor = "#e22d30" # Override highlight color
+  highlightColor = "#578256"
 
 
 [Params.sidebar]
